@@ -11,9 +11,12 @@ Laragram is an application i did for my university. The initial commit represent
 
 ## 1. Users
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This uses Laravels built in auth for basic operations such as logging in and registering. Appart from that, users have roles and relationships with Posts, Comments, Likes and Images, which implement [Spatie Media Library](https://spatie.be/).  
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- One user can have many posts, many comments, may like a comment or a post, and can have one profile image.  
+- It is possible for users to pull out user specific posts (as shown in user dashboard where users can see their own posts)  
+- Users can also edit posts and comments that are only theirs as well as delete them. They cannot do this to other users
+- Admin has full rights to all user created features and can see everything going on in the application
 
 ## 2. Posts
 
