@@ -2,9 +2,9 @@
 
 Laragram is an application i did for my university. The initial commit represents the base state of the app, which was graded. The application includes a basic CRUD for users, posts, likes and comments. Along with relationships that are needed for them. The app also includes vue.js and asynchronous communication with the app through axios. List of features include: 
 
-1 [Users]  
-2 [Posts]  
-3 [Image Upload]  
+1 Users  
+2 Posts  
+3 Image Upload  
 4 Commenting on posts  
 5 Liking Posts  
 6 Asynchronous communication on places where it's needed  
