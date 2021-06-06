@@ -1,0 +1,194 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+a.favorited {
+  svg {
+    fill: black;
+  }
+}
+
+.like-controls {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.likes {
+  width: 200px;
+  justify-content: space-around;
+  align-items: center;
+
+  span.likes-count {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+a.liked {
+  svg {
+    fill: dodgerblue !important;
+  }
+}
+
+a.unliked {
+  svg {
+    fill: black !important;
+  }
+}
+
+a.like, a.like-down {
+  cursor: pointer;
+  svg {
+    fill: rgb(117, 117, 117);
+    height: 30px;
+    width: 30px;
+  }
+
+  svg.liked {
+    fill: red;
+  }
+}
+
+.image-carousel-custom {
+  img {
+    width: 310px;
+    height: 290px;
+    object-fit: cover;
+  }
+}
+
+.avatar {
+  border-radius: 100px;
+  object-fit: cover;
+  width: 55px !important;
+  height: 55px !important;
+  margin-right: 20px;
+}
+
+
+.first-part {
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.first-part .your-info {
+  height: 100%;
+  border-radius: 0;
+  border-top: 1px solid hsla(0, 0%, 100%, .1);
+  color: #fff;
+  background-color: rgb(90 90 90 / 5%);
+  width: 100%;
+  max-width: 565px;
+}
+
+.first-part .your-info h1 {
+  font-size: 20px;
+  color: #fff;
+  padding: 30px 40px;
+  background-color: rgb(156 156 156 / 48%);
+  margin-bottom: 0;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0;
+}
+
+.first-part .your-info .user-info {
+  padding: 40px;
+}
+
+.first-part .your-info .user-info .row-custom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-part .your-info .user-info .row-custom p {
+  color: #303030;
+}
+
+.first-part .your-info .user-info .row-custom p:first-child {
+  font-size: 14px;
+  color: #303030;
+  overflow-wrap: normal;
+  line-height: 26px;
+}
+
+.first-part .account-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 0;
+  width: 100%;
+  max-width: 565px;
+  border-top: 1px solid hsla(0, 0%, 100%, .1);
+  color: #fff;
+  background-color: rgb(90 90 90 / 5%);
+  padding-bottom: 45px;
+}
+
+.first-part .account-image h1 {
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(156 156 156 / 48%);
+  margin-bottom: 0;
+  text-transform: uppercase;
+  display: block;
+  padding: 30px 40px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.first-part .account-image img {
+  width: 200px;
+  border-radius: 100px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 28px;
+  border: 4px solid rgb(0 0 0 / 40%);
+}
+
+.second-part {
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.second-part .archived-posts{
+  height: fit-content;
+  border-radius: 0;
+  border-top: 1px solid hsla(0, 0%, 100%, .1);
+  color: #303030;
+  background-color: rgb(90 90 90 / 5%);
+  width: 100%;
+  max-width: 100%;
+}
+
+.second-part .archived-posts h1 {
+  font-size: 20px;
+  color: #fff;
+  padding: 30px 40px;
+  background-color: rgb(156 156 156 / 48%);
+  margin-bottom: 0;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0;
+}
+
+.second-part .archived-posts .post {
+  padding: 30px 40px;
+}
